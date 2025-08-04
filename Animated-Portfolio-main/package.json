@@ -1,0 +1,14 @@
+{
+  "name": "animated-portfolio-main",
+  "version": "1.0.0",
+  "description": "Animated Portfolio project",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
