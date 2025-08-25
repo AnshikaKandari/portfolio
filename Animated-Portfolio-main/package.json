@@ -1,16 +1,26 @@
 {
-  "name": "animated-portfolio-main",
+  "name": "anshikakandari-portfolio",
   "version": "1.0.0",
-  "description": "Animated Portfolio project",
+  "description": "Anshika Kandari's Personal Portfolio Website",
   "main": "index.html",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "vite": "^4.3.9"
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "developer",
+    "web",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Anshika Kandari",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
