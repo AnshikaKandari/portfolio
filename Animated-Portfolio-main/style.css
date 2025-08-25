@@ -117,10 +117,14 @@ header {
     justify-content: space-between;
     padding: 0 2rem;
     height: 70px;
-    background-color: rgba(255, 255, 255, 0.121);
-    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     box-shadow: var(--box-shadow);
     z-index: 1000;
+}
+
+header.scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .left {
@@ -148,6 +152,27 @@ header h2 {
     backdrop-filter: blur(15px);
     box-shadow: 0 0 20px rgba(114, 161, 222, 0.3);
     border: 1px solid rgba(114, 161, 222, 0.1);
+}
+
+.desktop-nav li a {
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 0.8rem 1.2rem;
+    border-radius: 25px;
+    position: relative;
+}
+
+.desktop-nav li a:hover {
+    color: var(--primary-color);
+    background-color: rgba(114, 161, 222, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(114, 161, 222, 0.2);
+}
+
+.desktop-nav li a.active {
+    color: var(--primary-color);
+    background-color: rgba(114, 161, 222, 0.2);
+    box-shadow: 0 0 15px rgba(114, 161, 222, 0.3);
 }
 
 .desktop-nav li a {
